@@ -6,8 +6,8 @@ function Layout(){
         <>
             <nav className="navbar navbar-expand-lg bg-dark">
                 <div className="container-fluid">
-                    <Link className='navbar-brand fw-bold text-white' to='/'>Routes</Link>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <Link className='navbar-brand fw-bold text-white' to='/'>Pet Haven Adoption Center</Link>
+                        <button className="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
 
@@ -27,13 +27,10 @@ function Layout(){
                 </div>
             </nav>
 
-            <div className="container p-5">
             <Outlet />
-            </div>
 
-
-            <footer className='p-2 text-center fixed-bottom'>
-                <b>All rights reserved</b>
+            <footer className='p-2 text-center fixed-bottom bg-dark'>
+                <b className="text-white">All rights reserved</b>
             </footer>
         </>
     )

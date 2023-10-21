@@ -3,7 +3,6 @@ function About(){
     return(
         <>
         <div className="container-fluid">
-            
             <div className="row bg-dark">
                 <div className="col-12">
                 <section className="hero-section p-5">

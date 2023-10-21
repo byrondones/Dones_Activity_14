@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -10,7 +9,7 @@ import Services from './pages/Services.jsx'
 import Layout from './pages/Layout.jsx'
 import NotFound from './pages/NotFound.jsx'
 
-function App() {
+function App(){
   return (
     <>
         <BrowserRouter>
@@ -27,5 +26,6 @@ function App() {
     </>
   )
 }
+
 
 export default App
